@@ -1,0 +1,38 @@
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# 数据与训练产物
+data/
+datasets/
+checkpoints/
+logs/
+runs/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# IDE 与编辑器
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
